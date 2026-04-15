@@ -1,0 +1,49 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.cf::before, .cf::after {
+  content: "";
+  display: table;
+}
+.cf::after {
+  clear: both;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  background: #eee;
+  border: 1px solid #000;
+}
+
+header.primary,
+footer#colophon {
+  width: 95%;
+  margin-left: 2.5%;
+  background: #ccc;
+  float: left;
+  padding: 2%;
+}
+
+#content {
+  width: 65%;
+  margin-left: 2.5%;
+  background: #ddd;
+  float: left;
+  padding: 2%;
+}
+
+aside {
+  width: 32.5%;
+  margin-left: 2.5%;
+  background: #bbb;
+  float: left;
+  padding: 2%;
+}
