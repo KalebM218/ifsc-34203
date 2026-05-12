@@ -23,20 +23,19 @@
       margin-bottom: 10px;
     }
 
-    
     .assignments {
-      display: flex;
-      flex-direction: column;   
-      align-items: center;      
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 30px;
-      padding: 40px 20px;
+      padding: 40px;
+      max-width: 1000px;
+      margin: 0 auto;
     }
 
     .card {
       background: white;
       color: #1e3a8a;
       padding: 30px;
-      width: 250px;
       border-radius: 10px;
       text-decoration: none;
       font-weight: bold;
@@ -66,7 +65,7 @@
   </header>
 
   <section class="assignments">
-    
+
     <a class="card" href="public_html/pre-assesment/index.html">
       Pre-Assessment
     </a>
@@ -76,22 +75,22 @@
     </a>
 
     <a class="card" href="public_html/css-grid-lab/grid-two-col-right.html">
-      Grid-Right 
+      Grid-Right
     </a>
 
     <a class="card" href="public_html/css-grid-lab/grid-two-col-stacked.html">
-      Grid-Stacked 
+      Grid-Stacked
     </a>
 
     <a class="card" href="public_html/css-grid-lab/grid-two-col-equal.html">
-      Grid-Equal 
+      Grid-Equal
     </a>
 
     <a class="card" href="public_html/resume/index.html">
-      Resume 
+      Resume
     </a>
 
-     <a class="card" href="public_html/FlexboxFroggy/flexboxfroggy.png">
+    <a class="card" href="public_html/FlexboxFroggy/flexboxfroggy.png">
       FlexBoxFroggy
     </a>
 
@@ -103,9 +102,25 @@
       CustomGridCSS
     </a>
 
-     <a class="card" href="public_html/FinalSitePlanning/index.html">
+    <a class="card" href="public_html/FinalSitePlanning/index.html">
       FinalSitePlanning
     </a>
+
+    <a class="card" href="public_html/responsive-images/index.html">
+      Responsive Images
+    </a>
+
+    <a class="card" href="public_html/video/index.html">
+      HTML5 Video
+    </a>
+
+    <a class="card" href="public_html/audio/index.html">
+      HTML5 Audio
+    </a>
+
+    <a class="card" href="public_html/figma/index.html" target="_blank">
+  Figma Design
+</a>
 
   </section>
 

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HTML5 Video Demo | Kaleb Mackie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(to right, #1e3a8a, #2563eb);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 { font-size: 2rem; margin-bottom: 10px; }
+    p  { opacity: 0.85; margin-bottom: 30px; }
+
+    video {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    .back {
+      display: inline-block;
+      margin-top: 30px;
+      color: white;
+      text-decoration: underline;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>HTML5 Video</h1>
+  <p>Native browser video using the <code>&lt;video&gt;</code> element.</p>
+
+
+  <video
+    controls
+    poster="thumbnail.jpg"
+    width="800"
+  >
+    <source src="random-video.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+  <br>
+  <a class="back" href="../../index.html">← Back to course index</a>
+
+</body>
+</html>

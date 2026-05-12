@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HTML5 Audio Demo | Kaleb Mackie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(to right, #1e3a8a, #2563eb);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 { font-size: 2rem; margin-bottom: 10px; }
+    p  { opacity: 0.85; margin-bottom: 30px; }
+
+    audio {
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .back {
+      display: inline-block;
+      margin-top: 30px;
+      color: white;
+      text-decoration: underline;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>HTML5 Audio</h1>
+  <p>Native browser audio using the <code>&lt;audio&gt;</code> element.</p>
+
+
+  <audio controls>
+    <source src="random-audio.mp3" type="audio/mpeg">
+    Your browser does not support HTML5 audio.
+  </audio>
+
+  <br>
+  <a class="back" href="../../index.html">← Back to course index</a>
+
+</body>
+</html>
